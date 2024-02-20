@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web - Service</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@6/swiper-bundle.min.js"></script>   
+</head>
+<body>
+      <!-- ================================= LOADER ========================== -->
+      <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-circle"></div>
+        </div>
+    </div>
+    <!-- ================================ HEADER ============================ -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="assets/images/logo.png" alt="logo" width="70px" height="50px">
+        </a>
+
+        <ul class="navbar">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+
+            <li class="nav-item drop-down">
+                <a  class="nav-link">Services <ion-icon name="chevron-down-outline"></ion-icon></a>
+                <ul class="dropdown-menu">
+                    <li class="drop-item">
+                        <a href="web.html" class="drop-link">Web</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="web.html" class="drop-link">SEO</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="web.html" class="drop-link">Branding</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Pricing</a>
+            </li>
+
+        </ul>
+
+
+        <div class="account">
+            <a href="#" class="account-link">Login</a>
+            <a href="#" class="account-link">Register</a>
+            <a href="#" class="account-link">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a>
+        </div>
+
+        <div class="header-btn">
+            <div class="theme-toggler">
+                <ion-icon name="moon-outline" class="dark active"></ion-icon>
+                <ion-icon name="sunny-outline" class="light"></ion-icon>
+            </div>
+
+            <div class="menu-toggler">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!-- ====================================== MOBILE MENU ====================== -->
+    <div class="mobile-menu">
+        <div class="close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <ul class="mobile-nav">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+
+            <li class="nav-item drop-down">
+                <a  class="nav-link">Services <ion-icon name="chevron-down-outline"></ion-icon></a>
+                <ul class="dropdown-menu">
+                    <li class="drop-item">
+                        <a href="web.html" class="drop-link">Web</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="seo.html" class="drop-link">SEO</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="branding.html" class="drop-link">Branding</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Pricing</a>
+            </li>
+
+        </ul>
+
+        <div class="mobile-accounts">
+            <a href="#" class="account-link">Login</a>
+            <a href="#" class="account-link">Register</a>
+        </div>
+    </div>
+
+    <main>
+        <article class="container">
+            <!-- ============================ web hero ================= -->
+            <div class="web-hero">
+                <div class="web-hero-image">
+                    <img src="./assets/images/web-developer.png" alt="">
+                </div>
+                <div class="web-hero-content">
+                    <h1 class="big-text">Web development</h1>
+                    <p class="sub-text">
+                        We build fast, scale and scalable web applications. whether <br>
+                        you're building a new product or scaling an existing one, <br>
+                        Filiiafrica is here to help.
+                    </p>
+
+                    <div class="btns">
+                        <a href="#" class="btn-primary">Get a quote</a>
+                        <a href="#" class="btn-secondary">View case studies</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======================= web screen ======================== -->
+            <div class="web-screen">
+                <h1 class="big-text">Designing for every screen</h1>
+                <p class="sub-text">
+                    Filiiafrica is here to help you build a user-friendly websites <br>
+                    that looks great on any screen size and performs great.
+                </p>
+
+                <div class="screen-sizes">
+
+                    <div class="screen-size">
+                        <div class="image">
+                            <img src="./assets/images/mobile (1).png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h4>Responsive design</h4>
+                            <p>
+                                We design responsive websites that looks great <br>
+                                on any device, including mobile devices, desktop and tablets
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="screen-size">
+                        <div class="image">
+                            <img src="./assets/images/app-development.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h4>Mobile-first approach</h4>
+                            <p>
+                              We design for mobile devices first, ensuring <br>
+                              a seamless user experience no matter what <br>
+                              device your customers using
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="screen-size">
+                        <div class="image">
+                            <img src="./assets/images/mobile.png" alt="">
+                        </div>
+                        <div class="contents">
+                            <h4>Tablet-first approach</h4>
+                            <p>
+                                We design for tablets too, ensuring <br>
+                                a seamless user experience no matter what <br>
+                                device your customers using
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================================== PROJECT ================== -->
+            <div class="web-project swiper mySwiper">
+                <h1 class="big-text" style="margin-bottom: 20px;">Our projects</h1>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/images/desktop.png" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./assets/images/desktop (1).png" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./assets/images/desktop (2).png" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./assets/images/desktop (3).png" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./assets/images/desktop (4).png" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./assets/images/desktop (5).png" alt="">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./assets/images/desktop (6).png" alt="">
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+
+            <!-- ============================ Case study ============================== -->
+            <div class="case-study">
+                <h1 class="big-text">
+                    Case studies
+                </h1>
+
+                <div class="case">
+                    <div class="content">
+                        <h6 class="small-text">E-commerce</h6>
+                        <h3 class="case-title">Glowing</h3>
+                        <p>
+                            Glowing is an e-commerce platform that connects buyers and sellers from around the world.
+                            They needed a website that could handle high traffic volumes, support multiple languages and 
+                            currencies, and provide a seamless shopping experience
+                        </p>
+
+                        <a href="#" class="btn-secondary">View case study</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/images/desktop (1).png" alt="">
+                    </div>
+                </div>
+
+                <div class="case">
+                    <div class="content">
+                        <h6 class="small-text">Resturant</h6>
+                        <h3 class="case-title">Grilli</h3>
+                        <p>
+                            Grilli's digital presence was meticulously crafted by our team at Filiiafrica. 
+                            With a blend of creativity and technical expertise, we designed and developed a seamless online experience that mirrors the excellence of Grilli's cuisine. 
+                            From intuitive navigation to flawless functionality, our commitment to quality shines through every pixel. 
+                        </p>
+
+                        <a href="#" class="btn-secondary">View case study</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/images/desktop.png" alt="">
+                    </div>
+                </div>
+
+                <div class="case">
+                    <div class="content">
+                        <h6 class="small-text">Food delivery</h6>
+                        <h3 class="case-title">Foodie</h3>
+                        <p>
+                            Foodie, your ultimate destination for culinary delights, 
+                            has been brought to life by our team of expert developers at Filiiafrica. 
+                            With a focus on efficiency and convenience, we've meticulously crafted the Foodie platform to seamlessly connect food lovers with their favorite flavors. From intuitive ordering interfaces to robust delivery tracking systems, 
+                            our dedication to innovation ensures a satisfying experience with every bite
+                        </p>
+
+                        <a href="#" class="btn-secondary">View case study</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/images/desktop (6).png" alt="">
+                    </div>
+                </div>
+
+                <div class="case">
+                    <div class="content">
+                        <h6 class="small-text">Health</h6>
+                        <h3 class="case-title">Fitlife</h3>
+                        <p>
+                            Fitlife, the epitome of wellness and vitality, has been meticulously constructed by our team at Filiiafrica. 
+                            With a dedication to empowering individuals on their health journey, 
+                            we've designed a dynamic online platform that seamlessly integrates fitness, nutrition, and lifestyle guidance. From personalized workout plans to interactive tracking tools, our development expertise ensures a transformative experience for every user. 
+                            
+                        </p>
+
+                        <a href="#" class="btn-secondary">View case study</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/images/desktop (5).png" alt="">
+                    </div>
+                </div>
+
+                <div class="case">
+                    <div class="content">
+                        <h6 class="small-text">Travel</h6>
+                        <h3 class="case-title">Tourly</h3>
+                        <p>
+                            Tourly: Your Gateway to Adventure. Crafted by Filiiafrica, 
+                            our website seamlessly connects travelers to unforgettable experiences. 
+                            From dream destinations to seamless bookings, embark on your next journey with Tourly's user-friendly platform. 
+                        </p>
+
+                        <a href="#" class="btn-secondary">View case study</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/images/desktop (3).png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- =================================== Reach out ======================== -->
+            <div class="message">
+                <h1 class="big-text">
+                    Ready to get started?
+                </h1>
+                <p>
+                    Let's build something amazing together. Fill out the form below and we will be in touch with you shortly to
+                    discuss your project in more details.
+                </p>
+                
+                <form action="#" class="form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button type="submit" class="btn-primary">
+                        Send Message <ion-icon name="send-outline"></ion-icon>
+                    </button>
+                </form>
+            </div>
+        </article>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-item">
+                <a href="#" class="logo">
+                    <img src="./assets/images/logo.png" alt="" width="70" height="50">
+                </a>
+
+                <p> Ready to take your digital presence to the next level? <br> Get in touch with us today to schedule a consultation and discover <br> how we can help you achieve your goals.                </p>
+            </div>
+
+            <div class="footer-item">
+                <h3>Our Company</h3>
+                <ul class="footer-links">
+                    <li><a href="about.html" class="footer-link">ABOUT</a></li>
+
+                    <li><a href="#" class="footer-link">FAQ</a></li>
+
+                    <li><a href="#" class="footer-link">PRIVACY & POLICY</a></li>
+
+                    <li><a href="#" class="footer-link">TERMS</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">PROJECTS</a></li>
+
+                    <li><a href="#" class="footer-link">CONTACT</a></li>
+
+                    <li><a href="#" class="footer-link">PRICING</a></li>
+
+                    <li><a href="#" class="footer-link">LOGIN</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Follow Us</h3>
+                <ul class="footer-social">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copy">
+                <p>Copyright &copy; Filiiafrica 2023</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+     <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          slidesPerView: 1,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            draggateway: true,
+            autoplay: true,
+          },
+          breakpoints: {
+            640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            },
+            768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            },
+
+            1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            },
+         }
+        });
+    </script>
+</body>
+</html>
